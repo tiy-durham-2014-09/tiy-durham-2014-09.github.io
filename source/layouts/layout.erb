@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= data.page.title || "The Iron Yard - Durham 2014-09" %></title>
+
+    <%= stylesheet_link_tag "app", "style" %>
+    <%= javascript_include_tag "modernizr" %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/">TIY Durham 2014-09</a></h1>
+        </li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <% data.menu.each do |title, link_or_dropdown| %>
+          <% if link_or_dropdown.respond_to?(:each) %>
+          <li class="has-dropdown">
+            <a href="#"><%= title %></a>
+            <ul class="dropdown">
+              <% link_or_dropdown.each do |title, link| %>
+                <%= menu_item(title, link) %>
+              <% end %>
+            </ul>
+          </li>
+          <% else %>
+            <%= menu_item(title, link_or_dropdown) %>
+          <% end %>
+          <% end %>
+        </ul>
+      </section>
+    </nav>
+
+    <div id="main">
+      <%= yield %>
+    </div>
+
+    <%= javascript_include_tag  "all" %>
+  </body>
+</html>
