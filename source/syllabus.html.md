@@ -39,93 +39,107 @@ We will take three days off for Thanksgiving, November 26-28th.
 
 ## Topics
 
-The topics we are going to cover in class are listed below. This list is not
-comprehensive: we will cover additional topics as needed.
+These topics are listed week-by-week. However, this list is not definitive and
+we will reorder things based off how the class is going.
 
-* General programming
-  * Command-Line Orientation
-  * Git & GitHub
-  * Pair Programming
-  * Principles of Agile Development
-  * Estimation
+Each list of topics is a list of things students should be comfortable with at
+the end of that week.
 
-* Ruby
-  * Ruby Basics: syntax, numbers and strings, arrays and hashes, methods
-  * Logic and Control Flow
-  * Object-Oriented Programming with Ruby
-  * Modules
-  * Bundler and Rubygems
-  * Unit Testing with Ruby
-  * Pry
+### Week 1
 
-* Web Applications & Front-End
-  * HTML & CSS
-  * Introduction to Web Applications with Sinatra
-  * Zurb Foundation
-  * Introduction to JavaScript
-  * jQuery
-  * CoffeeScript
-  * Ajax
+By the end of this week, students should be comfortable with:
 
-* Rails
-  * MVC & Intro to Rails
-  * Rake Tasks and Rails
-  * YAML
-  * Simple Rails Models (CRUD)
-  * Migrations
-  * Rails Model Relationships
-  * STI and Polymorphic Relationships
-  * Model Validations
-  * SQL
-  * Rails Controllers & Routing
-  * Before & After Filters
-  * REST & Building APIs
-  * Rails Views & ERb
-  * Eliminating Duplication with Layouts and Partials
-  * View Helpers
-  * Forms & Validation
-  * Haml
-  * Sass & the Asset Pipeline
-  * Sending Emails
-  * Generating JSON
-  * The User Session & Flash
-  * Roll-Your-Own Rails Authentication
-  * Testing with Rails
-  * Deploying Rails on Heroku
+* Computational thinking
+* Setting up your computer for development
+* Writing Ruby programs
+* Using objects in programming
+* Getting input and producing output from a program
+* Testing your code
 
-* Rails Gems/Plugins
-  * Advanced Testing with Rails: FactoryGirl, Faker, RSpec
-  * Acceptance/Integration Testing with Capybara
-  * Authentication with Devise
-  * Admin Interface with ActiveAdmin
-  * File Uploads with CarrierWave
-  * Debugging with better_errors and pry-rails
-  * Consuming APIs with HTTParty
+### Week 2
 
-* Optional Bonus Modules
-  * Authentication with Omniauth
-  * Easier Forms with SimpleForm
-  * Search with pg_search and Sunspot or ElasticSearch
-  * Security and Linting with Brakeman, Rubocop, and Rails Best Practices
-  * Asynchronous Processing with Sidekiq
-  * Deploying Rails to non-Heroku environments
+* Creating your own objects and classes
+* Using modules
+* Using external libraries
+* Reading and writing simple regular expressions
 
-### Curriculum as a mind map
+### Week 3
 
-<%= link_to(image_tag("curriculum.png", :alt => "curriculum mind map"), "/images/curriculum.png") %>
+* Creating web pages with HTML & CSS
+* Generating web sites using Middleman
+* Using data in a file to dynamically create web pages
+* Preprocessing Sass and using CSS libraries with the asset pipeline
+
+### Week 4
+
+* Starting Rails projects
+* Using PostgreSQL to store data
+* Using Rails models to manipulate data in a database
+* Using Rails scaffolds to display models
+* Making simple validations for models in Rails
+* Building custom views in Rails
+* Creating database migrations
+* Querying for data in Rails
+* Associating different models in Rails
+* Using Rails' form helpers
+* Testing Rails models
+* Deploying Rails applications to Heroku
+
+### Week 5
+
+* Using advanced Rails associations, including polymorphic associations
+* Making advanced queries for subsets of data using SQL fragments
+* Migrating existing data
+* Building custom controllers in Rails
+* Applying REST principles
+* Displaying data in different formats
+* Using filters in your controllers
+* Using sessions to store data, such as login status
+* Showing flash messages
+* Making helpers for Rails views
+* Using alternatives to HTML + ERb for templating
+* Testing Rails controllers
+
+### Week 6
+
+* Writing JavaScript
+* Using server-generated JavaScript responses to remotely submit data and
+  update pages
+* Using jQuery to script interactions
+* Creating requests with Ajax
+* Testing applications from the outside-in with Capybara
+*
+
+### Week 7
+
+* Common web patterns
+
+### Week 8
+
+* Advanced JavaScript and Single-Page Applications
+
+### Week 9
+
+### Week 10
+
+### Weeks 11-13
+
+Yes, we have thirteen weeks in this course, because of the Thanksgiving holiday!
+
+You will be working on your final project and presentation during this time.
 
 
 ## Capstone Project
 
 During the last three weeks of the course, you will be working on your capstone
-project, putting all you've learned into practice. You will be working with a
-group of 2-4 people on your project.
+project, putting all you've learned into practice. You will be working by
+yourself, or with a group of 2-4 people on your project.
 
-At the end of week 9, you'll present your idea for a final project and
-get feedback, helping you scope the project. During weeks 10, 11, and 12, you'll
-work primarily on this project. We will have lecture time, but it will be
-tailored to what you need to know for your project and may be optional. We will
-let you know what days lecture is optional.
+During week 10, you'll present your idea for a final project and get feedback,
+helping you scope the project. During weeks 11, 12, and 13, you'll work
+primarily on this project. We will have lecture time, but it will be tailored to
+what you need to know for your project and may be optional. We will let you know
+what days lecture is optional.
 
 This project must use Ruby on Rails to build a web application of significant
 size, backed by a database and using some of the libraries we covered during
