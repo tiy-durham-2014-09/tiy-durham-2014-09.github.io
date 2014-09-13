@@ -58,6 +58,7 @@ By the end of this week, students should be comfortable with:
 
 ### Week 2
 
+* Using Git and GitHub to manage source code
 * Creating your own objects and classes
 * Using modules
 * Using external libraries
@@ -69,6 +70,7 @@ By the end of this week, students should be comfortable with:
 * Generating web sites using Middleman
 * Using data in a file to dynamically create web pages
 * Preprocessing Sass and using CSS libraries with the asset pipeline
+* Deploying static web sites to GitHub pages
 
 ### Week 4
 
@@ -90,6 +92,7 @@ By the end of this week, students should be comfortable with:
 * Using advanced Rails associations, including polymorphic associations
 * Making advanced queries for subsets of data using SQL fragments
 * Migrating existing data
+* Sorting data from user input
 * Building custom controllers in Rails
 * Applying REST principles
 * Displaying data in different formats
@@ -97,6 +100,7 @@ By the end of this week, students should be comfortable with:
 * Using sessions to store data, such as login status
 * Showing flash messages
 * Making helpers for Rails views
+* Building forms with SimpleForm
 * Using alternatives to HTML + ERb for templating
 * Testing Rails controllers
 
@@ -107,20 +111,46 @@ By the end of this week, students should be comfortable with:
   update pages
 * Using jQuery to script interactions
 * Creating requests with Ajax
+* Consuming APIs in JavaScript
 * Testing applications from the outside-in with Capybara
-*
+* Using the asset pipeline to process JS and use external JS libraries
+* Understanding CoffeeScript
 
 ### Week 7
 
-* Common web patterns
+* Authenticating users
+* Handling file uploads
+* Paginating data
+* Building APIs
+* Some of the following:
+  * Tagging data
+  * Creating a favorites or rating system
+  * Adding search to your application
+  * Asynchronous processing
+  * Building drag-and-drop applications
+  * Resizing and cropping images
+  * Editing in-place
 
 ### Week 8
 
-* Advanced JavaScript and Single-Page Applications
+* Building single-page applications
+* Building web applications for mobile devices
 
 ### Week 9
 
+This week is a week for review and catch-up. Things will fall through the cracks
+during the previous 8 weeks, and so we have this week as a flex week to make
+sure we cover everything you need.
+
 ### Week 10
+
+During this week, you will be pitching your final project ideas, forming groups,
+and getting feedback. In class, we will cover some software development
+principles. You should be comfortable with:
+
+* Breaking up features into distinct tasks to work on
+* Estimating the size of programming tasks
+* Using Agile development to run a project
 
 ### Weeks 11-13
 
