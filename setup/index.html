@@ -52,22 +52,11 @@
     </ul>
   </li>
   <li>Install Google Chrome (<a href="https://www.google.com/intl/en/chrome/browser/">download</a>)</li>
-  <li>Install Alfred (<a href="http://www.alfredapp.com/">download</a>)
-    <ul>
-      <li>Optional but useful</li>
-    </ul>
-  </li>
-  <li>Install ScreenHero (<a href="http://screenhero.com/download.html">download</a>)
-    <ul>
-      <li>You will have to sign up for an account</li>
-      <li>Add "cndreisbach" as a contact</li>
-    </ul>
-  </li>
   <li>Install <a href="/setup/xcode.html">XCode Command Line Tools</a>
     <ul>
       <li>Go to the <a href="https://developer.apple.com/downloads/">Apple Developer Downloads site</a>.</li>
       <li>You will have to register.</li>
-      <li>Look for "Command Line Tools (OS X Mavericks) for XCode."</li>
+      <li>Look for "Command Line Tools (OS X 10.9) for XCode - September 2014."</li>
       <li>Download it, run it, and follow all the prompts.</li>
       <li>Your teacher may provide this file to reduce downloads.</li>
     </ul>
@@ -83,19 +72,15 @@
     <ul>
       <li><code>brew install ruby-build rbenv</code></li>
       <li><code>echo 'if which rbenv &gt; /dev/null; then eval "$(rbenv init -)"; fi' &gt;&gt; ~/.profile</code></li>
+      <li>Run <code>ls -a ~</code>. If you see <code>.bash_profile</code> or <code>.bashrc</code>, get a TA or instructor to help you.</li>
     </ul>
   </li>
-  <li>Install ruby 2.1.1
+  <li>Install ruby 2.1.2
     <ul>
-      <li>Close and reopen iTerm.</li>
-      <li><code>rbenv install 2.1.1</code></li>
+      <li>Close and reopen Terminal.</li>
+      <li><code>rbenv install 2.1.2</code></li>
       <li>Stretch</li>
-      <li><code>rbenv global 2.1.1</code></li>
-    </ul>
-  </li>
-  <li>Install pry and highline gems
-    <ul>
-      <li><code>gem install pry highline</code></li>
+      <li><code>rbenv global 2.1.2</code></li>
     </ul>
   </li>
   <li>Install nodejs
@@ -111,6 +96,7 @@
   <li>Create an SSH key
     <ul>
       <li><code>ssh-keygen</code></li>
+      <li><strong>Do not</strong> give your key a password.</li>
     </ul>
   </li>
   <li>Register for a <a href="https://github.com">GitHub</a> account</li>
