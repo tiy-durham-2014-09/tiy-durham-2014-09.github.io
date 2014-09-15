@@ -10,15 +10,10 @@ layout: page
   * Run Atom > Install Shell Commands.
   * Run Atom > Preferences and install the Atom Lint package.
 * Install Google Chrome ([download](https://www.google.com/intl/en/chrome/browser/))
-* Install Alfred ([download](http://www.alfredapp.com/))
-    * Optional but useful
-* Install ScreenHero ([download](http://screenhero.com/download.html))
-    * You will have to sign up for an account
-    * Add "cndreisbach" as a contact
 * Install [XCode Command Line Tools](xcode.html)
     * Go to the [Apple Developer Downloads site](https://developer.apple.com/downloads/).
     * You will have to register.
-    * Look for "Command Line Tools (OS X Mavericks) for XCode."
+    * Look for "Command Line Tools (OS X 10.9) for XCode - September 2014."
     * Download it, run it, and follow all the prompts.
     * Your teacher may provide this file to reduce downloads.
 * Install [Homebrew](homebrew.html)
@@ -28,17 +23,17 @@ layout: page
 * Install rbenv & ruby-build
     * `brew install ruby-build rbenv`
     * `echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.profile`
-* Install ruby 2.1.1
-    * Close and reopen iTerm.
-    * `rbenv install 2.1.1`
+    * Run `ls -a ~`. If you see `.bash_profile` or `.bashrc`, get a TA or instructor to help you.
+* Install ruby 2.1.2
+    * Close and reopen Terminal.
+    * `rbenv install 2.1.2`
     * Stretch
-    * `rbenv global 2.1.1`
-* Install pry and highline gems
-    * `gem install pry highline`
+    * `rbenv global 2.1.2`
 * Install nodejs
     * `brew install nodejs`
 * Install git
     * `brew install git`
 * Create an SSH key
     * `ssh-keygen`
+    * __Do not__ give your key a password.
 * Register for a [GitHub](https://github.com) account
