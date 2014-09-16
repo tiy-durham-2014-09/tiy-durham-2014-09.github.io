@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>The Iron Yard - Durham 2014-09</title>
+
+    <link href="/stylesheets/app-349a2048.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/style-1ecd7187.css" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/modernizr-c9a1a643.js" type="text/javascript"></script>
+  </head>
+
+  <body class="slides slides_setup">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/">TIY Durham 2014-09</a></h1>
+        </li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left">
+            <li><a href="/syllabus.html">Syllabus</a></li>
+            <li><a href="/prework.html">Prework</a></li>
+          <li class="has-dropdown">
+            <a href="#">Setup</a>
+            <ul class="dropdown">
+                <li><a href="/setup/">Overview</a></li>
+                <li><a href="/setup/atom.html">Atom</a></li>
+                <li><a href="/setup/xcode.html">XCode</a></li>
+                <li><a href="/setup/homebrew.html">Homebrew</a></li>
+            </ul>
+          </li>
+            <li><a href="/resources.html">Resources</a></li>
+            <li><a href="/notes/">Notes</a></li>
+        </ul>
+      </section>
+    </nav>
+
+    <div id="main">
+      <h1 id="dev-laptop-setup">Dev Laptop Setup</h1>
+
+<hr />
+
+<h2 id="install-atomatomhtml">Install <a href="atom.html">Atom</a></h2>
+
+<ul>
+  <li>Download Atom from <a href="https://atom.io/">the Atom website</a>.</li>
+  <li>Install and run it.</li>
+  <li>Run Atom &gt; Install Shell Commands.</li>
+</ul>
+
+<hr />
+
+<h2 id="install-google-chrome">Install Google Chrome</h2>
+
+<ul>
+  <li>Feel free to also install Firefox, but we need Chrome.</li>
+</ul>
+
+<hr />
+
+<h2 id="install-xcode-command-line-toolsxcodehtml">Install <a href="xcode.html">XCode Command Line Tools</a></h2>
+<ul>
+  <li>Copy the XCode Command Line Tools file provided.</li>
+  <li>Open the .dmg file you received and look for the .pkg file inside.</li>
+  <li>Run it, and follow all the prompts.</li>
+</ul>
+
+<hr />
+
+<h2 id="install-homebrewhomebrewhtml">Install <a href="homebrew.html">Homebrew</a></h2>
+
+<ul>
+  <li>Open up Terminal</li>
+  <li>Paste <code>ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"</code></li>
+  <li>Run <code>brew doctor</code></li>
+</ul>
+
+<hr />
+
+<h2 id="install-rbenv--ruby-build">Install rbenv &amp; ruby-build</h2>
+<ul>
+  <li><code>brew install ruby-build rbenv</code></li>
+  <li><code>echo 'if which rbenv &gt; /dev/null; then eval "$(rbenv init -)"; fi' &gt;&gt; ~/.profile</code></li>
+  <li>Run "<code>ls -a ~</code>". If you see <code>.bash_profile</code> or <code>.bashrc</code>, get a TA or instructor to help you.</li>
+</ul>
+
+<hr />
+
+<h2 id="install-ruby-212">Install ruby 2.1.2</h2>
+
+<ul>
+  <li>Close and reopen Terminal.</li>
+  <li><code>rbenv install 2.1.2</code></li>
+  <li>Stretch</li>
+  <li><code>rbenv global 2.1.2</code></li>
+</ul>
+
+<hr />
+
+<h2 id="install-nodejs">Install nodejs</h2>
+
+<ul>
+  <li><code>brew install nodejs</code></li>
+</ul>
+
+<hr />
+
+<h2 id="install-git">Install git</h2>
+
+<ul>
+  <li><code>brew install git</code></li>
+</ul>
+
+<hr />
+
+<h2 id="create-an-ssh-key">Create an SSH key</h2>
+<ul>
+  <li><code>ssh-keygen</code></li>
+  <li><strong>Do not</strong> give your key a password.</li>
+</ul>
+
+<hr />
+
+<h2 id="register-for-a-githubhttpsgithubcom-account">Register for a <a href="https://github.com">GitHub</a> account</h2>
+
+    </div>
+
+    <script src="/javascripts/all-6f3b687c.js" type="text/javascript"></script>
+  </body>
+</html>
