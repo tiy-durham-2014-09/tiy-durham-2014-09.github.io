@@ -54,12 +54,14 @@ By the end of this week, students should be comfortable with:
 * Writing Ruby programs
 * Using objects in programming
 * Getting input and producing output from a program
-* Testing your code
+* Creating your own objects and classes
+* Iteration and using blocks
 
 ### Week 2
 
 * Using Git and GitHub to manage source code
-* Creating your own objects and classes
+* Testing your code
+* Inheritance
 * Using modules
 * Using external libraries
 * Reading and writing simple regular expressions
