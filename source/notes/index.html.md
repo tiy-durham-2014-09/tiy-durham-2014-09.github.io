@@ -10,3 +10,5 @@ layout: page
 * [Day 2 - Control Flow](2_control_flow.html)
 * [Day 3 - Creating Objects](3_creating_objects.html)
 * [Day 3 - Iteration, Blocks, String Interpolation](3_blocks.html)
+* [Day 4 - Attributes](4_attributes.html)
+* [Day 4 - Review](4_review.html)
