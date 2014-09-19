@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>The Iron Yard - Durham 2014-09</title>
+
+    <link href="/stylesheets/app-0f7d7b59.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/style-1ecd7187.css" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/modernizr-84a49412.js" type="text/javascript"></script>
+  </head>
+
+  <body class="slides slides_tools">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/">TIY Durham 2014-09</a></h1>
+        </li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left">
+            <li><a href="/syllabus.html">Syllabus</a></li>
+            <li><a href="/prework.html">Prework</a></li>
+          <li class="has-dropdown">
+            <a href="#">Setup</a>
+            <ul class="dropdown">
+                <li><a href="/setup/">Overview</a></li>
+                <li><a href="/setup/atom.html">Atom</a></li>
+                <li><a href="/setup/xcode.html">XCode</a></li>
+                <li><a href="/setup/homebrew.html">Homebrew</a></li>
+            </ul>
+          </li>
+            <li><a href="/resources.html">Resources</a></li>
+            <li><a href="/notes/">Notes</a></li>
+        </ul>
+      </section>
+    </nav>
+
+    <div id="main">
+      <h1 id="tools-of-the-trade">Tools of the Trade</h1>
+
+<hr />
+
+<h2 id="atom-key-commands">Atom key commands</h2>
+
+<ul>
+  <li>⌘-⬆︎-p - Opens command palette</li>
+  <li>⌘-p - Opens file finder</li>
+  <li>⌘-r - Go to symbol</li>
+  <li>⌘-/ - Toggle commenting</li>
+  <li>^-Space - Autocomplete</li>
+</ul>
+
+<hr />
+
+<h2 id="atom">Atom</h2>
+
+<h3 id="command-palette">Command palette</h3>
+
+<ul>
+  <li>Editor: Auto Indent</li>
+</ul>
+
+<h3 id="packages">Packages</h3>
+
+<ul>
+  <li>Linter</li>
+  <li>Linter Ruby</li>
+  <li>Linter Rubocop</li>
+</ul>
+
+<hr />
+
+<h2 id="setting-atom-as-your-editor">Setting Atom as your EDITOR</h2>
+
+<p>Add to your <code>~/.profile</code>:</p>
+
+<p><code>export EDITOR="atom -w"</code></p>
+
+<hr />
+
+<h2 id="pry">Pry</h2>
+
+<ul>
+  <li><code>gem install pry pry-byebug pry-doc</code></li>
+  <li>From now on, run <code>pry</code> instead of <code>irb</code></li>
+</ul>
+
+<hr />
+
+<h2 id="using-pry-in-your-code">Using pry in your code</h2>
+
+<p>```ruby
+# TOP OF FILE
+require 'pry'</p>
+
+<h1 id="later">LATER</h1>
+<p>name = gets.chomp
+binding.pry # Here is the important line
+puts "Hi, #{name}"
+```</p>
+
+<hr />
+
+<h2 id="wren">Wren</h2>
+
+<ul>
+  <li><code>gem install wren</code></li>
+  <li><code>wren new &lt;project&gt;</code></li>
+</ul>
+
+<hr />
+
+<h2 id="git-and-github">Git and GitHub</h2>
+
+<ul>
+  <li>Creating a new git repository</li>
+  <li>Adding files</li>
+  <li>Committing files</li>
+  <li>Creating a repository on GitHub</li>
+  <li>Pushing to GitHub</li>
+</ul>
+
+    </div>
+
+    <script src="/javascripts/all-da6bb38e.js" type="text/javascript"></script>
+  </body>
+</html>
