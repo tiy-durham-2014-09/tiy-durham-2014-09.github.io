@@ -1,5 +1,8 @@
 ---
 layout: page
+tags:
+  - setup
+  - homebrew
 ---
 
 # Homebrew setup

@@ -2,6 +2,8 @@
 # Compass
 ###
 
+require_relative 'lib/ipython_notebook'
+
 compass_config do |config|
   # Set this to the root of your project when deployed:
   config.http_path = "/"
@@ -84,6 +86,8 @@ end
 configure :development do
   activate :livereload
 end
+
+activate :ipython_notebook
 
 # Build-specific configuration
 configure :build do

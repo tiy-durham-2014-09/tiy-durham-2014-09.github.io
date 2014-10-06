@@ -1,5 +1,7 @@
 ---
 layout: page
+tags:
+  - setup
 ---
 
 # Required setup
@@ -37,3 +39,9 @@ layout: page
     * `ssh-keygen`
     * __Do not__ give your key a password.
 * Register for a [GitHub](https://github.com) account
+
+## Detailed Instructions for Applications
+
+<% current_page.children.each do |page| %>
+* [<%= page.data.title || page.url %>](<%= page.url %>)
+<% end %>

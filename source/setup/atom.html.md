@@ -1,5 +1,8 @@
 ---
 layout: page
+tags:
+  - setup
+  - atom
 ---
 
 # Atom Setup

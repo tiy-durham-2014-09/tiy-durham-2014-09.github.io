@@ -13,6 +13,8 @@ gem "middleman-syntax"
 gem 'foundation-rails', :require => false
 gem 'jquery-rails', :require => false
 
+gem 'awesome_print'
+
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 

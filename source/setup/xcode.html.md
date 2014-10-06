@@ -1,5 +1,9 @@
 ---
+title: XCode setup
 layout: page
+tags:
+  - setup
+  - xcode
 ---
 
 # XCode setup
