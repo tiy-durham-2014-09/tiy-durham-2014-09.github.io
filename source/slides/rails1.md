@@ -2,7 +2,7 @@
 
 ---
 
-![inline](RubyRails.png)
+![inline](img/RubyRails.png)
 
 ---
 ## What is Rails?
@@ -31,7 +31,7 @@
 * Professional troll
 * Race car driver
 
-![right fit](dhh.jpg)
+![right fit](img/dhh.jpg)
 
 ---
 
